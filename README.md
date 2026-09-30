@@ -12,8 +12,10 @@
 - `required` — `true` только для обязательного обновления
 - `notes` — список изменений
 
-APK для релизов должен называться `Fajr.apk`, чтобы постоянная ссылка оставалась такой:
+Актуальная APK хранится в корне репозитория под именем `Fajr.apk`.
 
-`https://github.com/Kamil111777/fajr_updates/releases/latest/download/Fajr.apk`
+Постоянная публичная ссылка:
+
+`https://raw.githubusercontent.com/Kamil111777/fajr_updates/main/Fajr.apk`
 
 Важно: все APK должны быть подписаны одним и тем же постоянным ключом `fajr-release.jks`, иначе Android не позволит обновить приложение поверх установленной версии.
